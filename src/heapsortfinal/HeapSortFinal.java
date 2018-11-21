@@ -51,7 +51,7 @@ public class HeapSortFinal {
         
        // To heapify a subtree rooted with node i which is 
        // an index in arr[]. n is size of heap 
-        void heapify(int arr[], int n, int i) {
+        public void heapify(int arr[], int n, int i) {
             
         compsNum++;
          
@@ -86,7 +86,7 @@ public class HeapSortFinal {
     } 
         
         //prints out the sorted array
-        static void printArray(int arr[]) { 
+        public static void printArray(int arr[]) { 
         int n = arr.length;
          
         for (int i=0; i<n; ++i)
